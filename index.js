@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import owncss from './modules/own.css';
-import muijs from 'muicss/dist/js/mui.min.js'
+import muijs from '/node_modules/muicss/dist/js/mui.min.js'
 import App from './modules/App'
 import { Router, Route, useRouterHistory, IndexRedirect, Link } from 'react-router';
 import { createHashHistory } from 'history';
