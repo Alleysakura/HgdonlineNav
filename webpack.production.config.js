@@ -12,7 +12,7 @@ var config = {
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader?presets[]=es2015&presets[]=react' },
       { test: /\.css$/, // Only .css files
         exclude: /node_modules/,
-        loader: 'style!css' // Run both loaders
+        loader: 'style-css' // Run both loaders
       }
     ]
   }
